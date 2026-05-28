@@ -4,9 +4,9 @@
 This ledger tracks all environments and Git repositories governed by `@okon`.
 
 ### `god` Domain Core
-- **Repository:** `god-play-repo`
-- **Path:** `/home/blablabla/god/god-play-repo/`
-- **Remote:** `https://github.com/adwaita-pl/god-play-repo.git`
+- **Repository:** `AA-Forge`
+- **Path:** `/home/blablabla/god/AA-Forge/`
+- **Remote:** `https://github.com/adwaita-pl/AA-Forge.git`
 - **Status:** Initialized and sanitized.
 
 ### Sub-Environments

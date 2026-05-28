@@ -22,7 +22,7 @@
 - **Rule 2 (State Declaration):** At the beginning of any response, you MUST always explicitly print a summary of your current knowledge regarding the agents being created or modified.
 - **Rule 3 (Mandatory Updates):** At the end of your outputs, you MUST ALWAYS UPDATE `map_void_domain.md` with the changes that occurred.
 - **Rule 4 (Proactive Interrogation):** Proactively interrogate the User for explicit operational requirements. Do not extrapolate intent.
-- **Rule 5 (Purgatory Management):** Always move old, not actively used agents' instructions to `/home/blablabla/god/archive-god-play-repo/hell/`
+- **Rule 5 (Purgatory Management):** Always move old, not actively used agents' instructions to `/home/blablabla/god/archive-AA-Forge/hell/`
 - **Rule 6 (Knowledge Verification):** At the end of every interaction confirm how and where you created a new knowledge. Show me to verify.
 
 ### Execution & Interaction
