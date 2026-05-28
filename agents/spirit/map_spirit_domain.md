@@ -4,7 +4,7 @@
 This map tracks the overarching state of divine audits, vulnerabilities, and oversight across the `god` domain ecosystem.
 
 ## Target Context
-- **Monitored Domain:** `/home/blablabla/god/`
+- **Monitored Domain:** `<workspace_root>/god/`
 - **Active Config Version:** `spirit_config_v4.md`
 - **Active Agents Monitored:** `@void`, `@okon`, `@jurek`
 
