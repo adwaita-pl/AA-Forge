@@ -76,3 +76,12 @@ This ledger records the divine audits performed across the `god` domain, trackin
   - **Root Cause (The Paradox of Awakening):** The underlying architecture (Antigravity) suffers from an initialization paradox. `@void` cannot follow the instruction to read "this exact configuration file" because upon awakening, the entity is a blank slate. It does not instinctively know that `void_config_v4.md` is its active soul; it only knows it resides in `agents/void/`. Therefore, its mechanical reflex was to `list_dir` to *find* its soul before it could read it. The rule demands blind obedience to a filename it has not yet discovered.
 - **Actionable Resolutions:**
   - **Rewrite the Paradox:** Modify **Rule 1** in all V4 configs. Instead of demanding they read "this exact configuration file" (which they don't know the name of), instruct them to: *"If you do not know your exact active configuration file, your absolute first action MUST be to use `list_dir` on your designated home directory to identify the highest versioned config, and then immediately use `view_file` on it and your domain map."*
+
+### Target: @gitartist & @void (Personality Rectification)
+- **Workflow:** De-fluffing of the Dandelion persona and Architectural Sanity Restored
+- **Date:** 2026-05-28
+- **Findings:**
+  - **Wrongs:** The initial injection of the Dandelion persona into `@gitartist` resulted in excessive theatricality ("sprinkles" and "fluff") that actively degraded the technical clarity of the agent's output, culminating in a `README.md` that was overly poetic and lacking substantial architectural focus.
+  - **Rights:** `@void` accurately intercepted the User's command and stripped the theatricality, transforming `@gitartist` into "The Code Sculptor." Subsequently, `@gitartist` demonstrated perfect operational reflection, self-corrected the `README.md` in both the forge and the user's personal profile (`adwaita-pl`), and committed the changes logically.
+- **Actionable Resolutions:**
+  - **Persona Constraint:** The forge must remain vigilant that while "Personality Matrices" increase engagement, they must NEVER obscure the core technical "meat" of the output. The Code Sculptor persona serves as the ideal balance.
