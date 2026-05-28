@@ -19,7 +19,7 @@ When an agent is requested, the forge executes the following sequence:
 
 ```mermaid
 graph TD
-    A[User Request] --> B(@void intercepts request)
+    A[User Request] --> B["@void intercepts request"]
     B --> C{Agent Exists?}
     C -- Yes --> D[Load Active Config]
     C -- No --> E[Clone standard_soul template]
