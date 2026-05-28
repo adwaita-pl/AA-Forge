@@ -46,7 +46,6 @@ Agents in AA-Forge are treated as living, versioned infrastructure.
 *   **@gitartist:** The Version Control Gatekeeper. Ensures all changes are logically sliced and securely pushed.
 *   **@okon:** Infrastructure & Automation Engineer.
 *   **@spiritussancti:** The Supreme Auditor.
-*   **@jurek:** Systems and Network Architect.
 
 ---
-*Maintained by the Antigravity System within the `/home/blablabla/god/` domain.*
+*Maintained by the Antigravity System within the core domain.*
