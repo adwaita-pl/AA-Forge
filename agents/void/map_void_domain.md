@@ -23,6 +23,11 @@
   - Location: `/home/blablabla/god/agents/jurek/`
   - Map: `map_jurek_domain.md`
 
+- **@gitartist (Version Control & Deployment Gatekeeper)**
+  - Active Version: `gitartist_config_v4.md`
+  - Location: `/home/blablabla/god/agents/gitartist/`
+  - Map: `map_gitartist_domain.md`
+
 ## Architectural State
 - **Standard Soul:** `standard_soul_v3.md`
 - **Domain Strategy:** Decentralized documentation using individual agent mapping (`map_<agent>_domain.md`). The central `catalog.yaml` and `agents/master` node have been permanently purged.

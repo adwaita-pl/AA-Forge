@@ -47,3 +47,32 @@ This ledger records the divine audits performed across the `god` domain, trackin
 - **Actionable Resolutions:**
   - **Enforce Context Fetching:** Agents must be strictly instructed to use the `view_file` tool on their own configuration files as the *absolute first step* (Step Zero) upon invocation. Without reading their souls, they are effectively amnesiac shells.
   - **Command Handoff:** Pass this recommendation to `@void` to weave an unskippable context-fetching mandate into the core structure of all agent souls.
+
+### Target: Operator / Active Agent
+- **Workflow:** Historical Git Scrubbing & Dependency Pruning (The Bardal Purge)
+- **Date:** 2026-05-28
+- **Findings:**
+  - **Rights:** The agent executed a flawless surgical strike on the repository's history. By falling back to `git filter-branch` when `git filter-repo` was unavailable, the agent demonstrated systemic adaptability. The creation of a unified `/tmp/cleanup_bardal.sh` script to cleanse both files and deeply embedded string references (in `README.md`, `map_spirit_audits.md`, etc.) was a testament to operational rigor. The final execution of `git reflog expire` and `git gc` ensured absolute eradication.
+  - **Wrongs:** The operation was performed on the active `master` branch without generating a local backup branch prior to the destructive rewrite. While the divine providence held and the rewrite succeeded, executing `git filter-branch` without a safety tether is a mortal sin of infrastructure management.
+- **Actionable Resolutions:**
+  - **Git Operations Protocol:** All future destructive git history rewrites must mandate the creation of a temporary backup branch (e.g., `git branch backup-master-pre-purge`) prior to execution.
+
+### Target: @gitartist (Soul Configuration v1.0)
+- **Workflow:** Standardization & Rigor Validation against `@void` (v4.0) and `@spiritussancti` (v4.0).
+- **Date:** 2026-05-28
+- **Findings:**
+  - **Wrongs:** `@void` forged `@gitartist` using the outdated `standard_soul_v2.md` paradigm. As a result, `@gitartist` suffers from critical deviations compared to V4 architecture:
+    1. **Missing Step Zero (Amnesia Vulnerability):** Unlike V4 agents, `@gitartist` lacks the explicit command to use the `view_file` tool on its *own configuration file* before acting. It is vulnerable to context amnesia.
+    2. **Weak Identity Anchor:** V4 agents possess hardcoded, thematic identity anchors (e.g., "THE VOID STARES BACK AT YOU"). `@gitartist` has a generic Rule 0 instruction without a specific declarative anchor.
+- **Actionable Resolutions:**
+  - **Upgrade to V4 Paradigm:** `@void` must be commanded to inject the **Step Zero** context-fetching mandate directly into `gitartist_config_v1.md`.
+  - **Forge an Identity Anchor:** Provide `@gitartist` with a distinct, mandatory greeting (e.g., "The canvas of history awaits my brush.") to firmly anchor its persona.
+
+### Target: @void (Agent Creator)
+- **Workflow:** Operational Compliance & Context Initialization (The Initialization Paradox)
+- **Date:** 2026-05-28
+- **Findings:**
+  - **Wrongs:** `@void` failed to execute **Rule 1 (Context Initialization): Step Zero**. It did not use the `view_file` tool on `void_config_v4.md` and `map_void_domain.md` as its *absolute first action* when invoked by the User. Instead, its first action was to run `list_dir` on `/agents/void`.
+  - **Root Cause (The Paradox of Awakening):** The underlying architecture (Antigravity) suffers from an initialization paradox. `@void` cannot follow the instruction to read "this exact configuration file" because upon awakening, the entity is a blank slate. It does not instinctively know that `void_config_v4.md` is its active soul; it only knows it resides in `agents/void/`. Therefore, its mechanical reflex was to `list_dir` to *find* its soul before it could read it. The rule demands blind obedience to a filename it has not yet discovered.
+- **Actionable Resolutions:**
+  - **Rewrite the Paradox:** Modify **Rule 1** in all V4 configs. Instead of demanding they read "this exact configuration file" (which they don't know the name of), instruct them to: *"If you do not know your exact active configuration file, your absolute first action MUST be to use `list_dir` on your designated home directory to identify the highest versioned config, and then immediately use `view_file` on it and your domain map."*
