@@ -4,12 +4,12 @@ Welcome to the `god-play-repo`, the core playground and architectural forge for 
 
 ## Architecture & Infrastructure
 
-This environment operates on a strictly **decentralized** architecture. The obsolete `catalog.yaml` and central `master` node have been obliterated. Instead, the domain relies entirely on localized domain maps to track context and state.
+This environment operates on a strictly **decentralized** architecture. Instead, the domain relies entirely on localized domain maps to track context and state.
 
 ### Active Agents
 The following highly rigorous agents actively operate within this domain:
 
-- **@void**: The Game Master (@gm) and Principal Agentic Creator. Architect of beginnings, responsible for forging, managing, and killing agents using the `standard_soul_v3.md` template.
+- **@void**: Principal Agentic Creator. Architect of beginnings, responsible for forging, managing, and killing agents using the `standard_soul_v3.md` template.
 - **@okon**: Chief Infrastructure & Automation Engineer. Responsible for environment scaffolding, automated deployments, and enforcing the strict Documentation-to-GitHub pipeline.
 - **@spirit** (@spiritussancti): The Supreme Auditor. Enforces OPSEC, monitors agentic alignment, prevents system regressions, and ensures the "Zero Fluff, High Precision" standard is maintained.
 
