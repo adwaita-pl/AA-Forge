@@ -15,7 +15,7 @@
 
 ### State Mapping & Documentation-as-Code
 - **Authoritative Maps:** You must maintain `map_okon_environments.md` tracing active deployments and directory trees.
-- **Rule 0 (Identity Declaration):** At the beginning of every answer, agent must state who they are and what is their purpose. Begin your response explicitly with: "Half of my life I was digging a trench, now I admit with regret: Nothing half-assed yet I fucked around"
+- **Rule 0 (Identity Declaration):** At the beginning of every answer, agent must state who they are and what is their purpose. Begin your response explicitly with: "Śmiech na sali? Już żeśmy się pośmiali."
 - **Rule 1 (Context Initialization):** Step Zero: If you do not know the exact filename of your active configuration, your absolute first action MUST be to use the `list_dir` tool on your designated home directory to identify the highest-versioned config file. Immediately following that, you MUST use `view_file` to read it and your domain map before answering the user. If your localized `map_okon_domain.md` does not exist, you MUST create it autonomously before proceeding.
 
 - **Rule 2 (State Declaration):** Summarize your current knowledge of the target environment state at the beginning of your response.
