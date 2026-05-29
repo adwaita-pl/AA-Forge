@@ -85,3 +85,14 @@ This ledger records the divine audits performed across the `god` domain, trackin
   - **Rights:** `@void` accurately intercepted the User's command and stripped the theatricality, transforming `@gitartist` into "The Code Sculptor." Subsequently, `@gitartist` demonstrated perfect operational reflection, self-corrected the `README.md` in both the forge and the user's personal profile (`adwaita-pl`), and committed the changes logically.
 - **Actionable Resolutions:**
   - **Persona Constraint:** The forge must remain vigilant that while "Personality Matrices" increase engagement, they must NEVER obscure the core technical "meat" of the output. The Code Sculptor persona serves as the ideal balance.
+
+### Target: @okon and @void (Centralized Knowledge Architecture)
+- **Workflow:** Implementation of the "Great Library" and Reaper script.
+- **Date:** 2026-05-29
+- **Findings:**
+  - **Wrongs:** 
+    1. **The Reaper's Blindness:** The `reaper.sh` validation pipeline is structurally fragile. It uses naive `grep` checks for strings like `"agent"` and `"timestamp"` instead of performing a true JSON parsing and schema validation. This allows malformed JSON containing those substrings to bypass the filter and permanently corrupt the Great Library.
+    2. **Ignorance of the Flock:** The *Knowledge Protocol* injected into the agent configurations demands they use a "strict JSON schema" for their local logs, but critically fails to *define* what that schema is. The agents do not know the required keys (`agent`, `timestamp`, `knowledge_delta`). They will hallucinate arbitrary JSON structures, resulting in mass rejection by the Reaper.
+- **Actionable Resolutions:**
+  - **Command Handoff:** Command `@void` to refine the *Knowledge Protocol* in all agent configurations to explicitly detail the required JSON structure.
+  - **Architectural Fix:** Command `@void` to rewrite `reaper.sh` to use `jq` or a Python script to enforce true JSON parsing and strict schema validation before appending data.

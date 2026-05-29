@@ -32,3 +32,5 @@
 ## Architectural State
 - **Standard Soul:** `standard_soul_v3.md`
 - **Domain Strategy:** Decentralized documentation using individual agent mapping (`map_<agent>_domain.md`). The central `catalog.yaml` and `agents/master` node have been permanently purged.
+- **Knowledge Protocol:** All agents sync via a "Great Library" (Centralized Knowledge Architecture).
+- **Recent Change:** Resolved the "End of Cycle" paradox by merging Knowledge Verification rules with the Knowledge Protocol Write Operations, ensuring agents both log to `local_knowledge.jsonl` and print the payload to the User.
