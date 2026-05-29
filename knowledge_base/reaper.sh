@@ -1,10 +1,10 @@
 #!/bin/bash
 # The Reaper Job: Harvests, validates, and merges local decentralized logs.
 
-KNOWLEDGE_BASE="/home/blablabla/god/AA-Forge/knowledge_base"
+KNOWLEDGE_BASE="~/god/AA-Forge/knowledge_base"
 CENTRAL_LOG="$KNOWLEDGE_BASE/central_archive.jsonl"
 
-for agent_dir in /home/blablabla/god/AA-Forge/agents/*; do
+for agent_dir in ~/god/AA-Forge/agents/*; do
   if [ -d "$agent_dir" ]; then
     local_log="$agent_dir/local_knowledge.jsonl"
     
